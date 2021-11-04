@@ -1,6 +1,6 @@
 import '../App.css';
 import { useState,useEffect } from 'react';
-import Card from './Card';
+import EventLists from './EventLists';
 import Typography from '@mui/material/Typography';
 
 import axios from 'axios'
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Typography   align='center' sx={{ fontSize: 40 }} color="text.secondary" gutterBottom>Events</Typography>
       <div className="media-card">
-        {events && <Card Events={events} />}
+        {events && <EventLists Events={events} />}
       </div>
     </div>
   );

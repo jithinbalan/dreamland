@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import EventDetail from './EventDetailPage';
 import { Link } from "react-router-dom";
 
-export default function BasicCard(Events) {
+export default function EventLists(Events) {
     // console.log(Events)
     const fetchEventDetail = (id) =>{
         console.log(id)
